@@ -1,0 +1,33 @@
+body {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    background-image: linear-gradient(#CCFFFF,#99FFFF	);
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+
+canvas #gamezone {
+
+}
+
+.enter{
+    padding: 10px;
+    background-color: bisque;
+}
+
+.enter:hover{
+    background-color: rgb(209, 180, 145);
+    cursor: pointer;
+}
+
+.score{
+    margin: 10px;
+    font-size: 40px;
+    font-weight: 600;
+}
